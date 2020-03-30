@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    padding: 0;
+    margin: 0;
+    background-color: #D9D6D9;
+}
+
+header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #801336;
+}
+
+#logo img{
+    width: 98px;
+    height: 98px;
+}
+
+.navigation li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+#text-section {
+    height: 640px;
+    text-align: center;
+    background-image: url('images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+
+#text-section h1{
+    font-weight: bold;
+    font-size: 6rem;
+    margin: 0;
+    color: #801336;
+}
+
+#text-section h3 {
+    font-size: 3rem;
+    color: #C72C41;
+}
+
+.category{
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.track-title {
+    color: #801336;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.tracks{
+    width: 100%;
+}
+
+.tracks img{
+    width: 28%;
+    height: 272px;
+    margin: 2rem 20px;
+    border-radius: 6px;
+}
+
+.icons {
+    margin: 1.2rem 0;
+}
+
+.btn {
+    border: none;
+    font-size: 1.5rem;
+    background-color: #2D132C;
+    color: #EE4540;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+#subscribe-title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #801336;
+}
+
+#subscribe input{
+    font-size: 1.5rem;
+    padding: 5px 5px;
+}
+
+#footer {
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    color: #2D132C;
+}
+
+#subscription{
+    margin: 5rem 0;
+}
+
+#nav{
+    margin: 5rem 0;
+}

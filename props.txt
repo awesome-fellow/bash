@@ -1,0 +1,10 @@
+body : bg color #D9D6D9
+
+text color : #801336(important) #C72C41 
+
+button : color #EE4540 background #2D132C
+
+
+footer : bg color #2D132C opacity(5%)
+
+footer text : #2D132C
